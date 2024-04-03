@@ -16,7 +16,7 @@ const App = () => {
   
   return (
     <div>
-       You've been on this page for {timer} seconds;
+      <p>You've been on this page for {timer} seconds.</p> 
     </div>
   )
 }
