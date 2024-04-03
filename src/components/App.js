@@ -9,8 +9,9 @@ const App = () => {
     let time=setInterval(()=>{
       setTimer(prev=>{
         return prev+1;
-      })
-    })
+      });
+    },1000)
+    return ()=>clearInterval(time);
   },[]);
   
   return (
